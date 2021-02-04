@@ -19,6 +19,7 @@ namespace AirportCheck
             this.categoryDetail = categoryDetail;
             InitializeComponent();
             setDetailInfo(categoryDetail);
+            this.Text = categoryDetail;
         }
 
         public void setDetailInfo(string detailInfo)

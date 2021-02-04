@@ -29,6 +29,7 @@ namespace AirportCheck
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AirplaneList));
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbTitle = new System.Windows.Forms.Label();
             this.panel01 = new System.Windows.Forms.Panel();
@@ -516,8 +517,9 @@ namespace AirportCheck
             this.Controls.Add(this.panel01);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AirplaneList";
-            this.Text = "Pousos";
+            this.Text = "AirplaneList";
             this.TopMost = true;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

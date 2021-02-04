@@ -29,6 +29,7 @@ namespace AirportCheck
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AirportDetailInfo));
             this.tbDetailInfo = new System.Windows.Forms.TextBox();
             this.tbDetailValue = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -74,6 +75,7 @@ namespace AirportCheck
             this.Controls.Add(this.tbDetailValue);
             this.Controls.Add(this.tbDetailInfo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AirportDetailInfo";
             this.Text = "DetailInfo";
             this.TopMost = true;
